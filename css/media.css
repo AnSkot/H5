@@ -1,0 +1,59 @@
+@media screen and (max-width: 1100px){
+	.headLine{
+		flex-wrap: wrap;
+	}
+	.why-item-1,.why-item-2,.why-item-3{
+		width: 32%;    	   	
+	}
+	.we-work-item{
+		width: 30%;		
+	}
+	.footer-r{		
+		width: 10%;
+	}	
+}
+
+
+
+@media screen and (max-width: 900px){	
+	.application{
+		height: 70%;
+	}
+	.why_box{
+		flex-wrap: wrap;
+		height: 100%;
+	}
+	.why-item-1,.why-item-2,.why-item-3{
+		width: 80%;
+    	height: 650px;
+    	margin: 3% auto;
+    	text-align: center;    	
+	}	
+	.we-work-box{		
+		flex-wrap: wrap;				
+	}
+	.we-work-item{
+		width: 60%;
+		margin: 5% auto;
+		align-items: center;
+		text-align: center;
+	}
+	.we-work-item h3{	
+		padding: 5% 0;
+	}
+	.app_box {
+   	 	width: 80%;
+   	}
+   	.team-box{		
+		flex-wrap: wrap;				
+	}
+	.team-item{
+		width: 60%;
+		margin: 6% auto;
+		text-align: center;		
+	}   	
+	.footer-r{
+		width: 15%;
+	}
+	
+}
